@@ -35,7 +35,7 @@ public class Sample {
         java.util.List<String> args = java.util.Arrays.asList(args_);
 
 
-        com.aliyun.dysmsapi20170525.Client client = Sample.createClient("LTAI5tSqaQdDvFw17PSJVrvf", "hG4GFe9kg03WZk6TAXeSrOMc9ySyDb");
+        com.aliyun.dysmsapi20170525.Client client = Sample.createClient("1", "1");
         SendSmsRequest sendSmsRequest = new SendSmsRequest()
                 .setSignName("阿里云短信测试")
                 .setTemplateCode("SMS_154950909")
